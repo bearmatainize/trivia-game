@@ -70,7 +70,7 @@ a:visited {
     background-color: lightcyan;
 }
 
-.all-button{
+.full-button{
     width: 45rem;
     height: 3rem;
     margin-top: 20px;
@@ -165,6 +165,14 @@ a:visited {
 
 .rules-list-list{
     margin-left: 5%;
+}
+
+.rules-list-indent{
+    margin-left: 15%;
+}
+
+.rules-list-indent a{
+    color: black;
 }
 
 /*
@@ -306,12 +314,40 @@ input[type="radio"]:disabled {
     .answers-container span label{
         font-size: 0.8rem;
     }
+
+    .full-button{
+        width: 14rem;
+    }
+
+    .half-button{
+        width: 6rem;
+    }
 }
 
 @media(min-width : 350px) and (max-width : 700px){
 
     .question-container h1{
         font-size: 0.9rem;
+    }
+
+    .full-button{
+        width: 18rem;
+    }
+
+    .half-button{
+        width: 8rem;
+    }
+
+}
+
+@media(min-width : 700px) and (max-width : 1000px){
+
+    .full-button{
+        width: 30rem;
+    }
+
+    .half-button{
+        width: 15rem;
     }
 
 }
